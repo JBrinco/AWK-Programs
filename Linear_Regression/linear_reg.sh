@@ -4,9 +4,9 @@
 #Second argument is the file with real signal values to calculate
 #Third argument is the output file where the results are going.
 
-awk -f calibration.awk $1
-awk -f coeficient.awk $1
-awk -f calculation.awk $2
+awk -f .calibration.awk $1
+awk -f .coeficient.awk $1
+awk -f .calculation.awk $2
 
 rm temp && rm temp2
 mv results "$3"

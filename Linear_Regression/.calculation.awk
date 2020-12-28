@@ -9,9 +9,9 @@ BEGIN{getline <"temp"
 	print ("Slope ", slope) > "results"
 	print ("Origin ", origin) >> "results"
 	print ("R^2 ", rsquared) >> "results"
-	print "Area", "Concentration" >> "results"
+	print "Sample", "Concentration", "Area" >> "results"
 
 	FS = ","
 }
 
-{print($1, ($1-origin)/slope) >> "results"}
+{print($1, ($2-origin)/slope, $2) >> "results"}

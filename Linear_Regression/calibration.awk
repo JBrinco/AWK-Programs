@@ -6,7 +6,7 @@ BEGIN{FS=","}
 #		fieldlabel2 = $2
 #}
 
-NR != 1{sum1 += $1
+FNR != 1{sum1 += $1
 	sum2 += $2
 	sum1squared += $1 * $1
 	sum2squared += $2 * $2

@@ -1,6 +1,7 @@
 # AWK-Programs
 
-This repository is outdated! For the sake of portability, I write my stuff in R and python. If you are looking for a simple program to help you with linear regression, check out `JBrinco/Quantification-Buddy`
+This repository is outdated! For the sake of portability, I write my stuff in R and python. If you are looking for a simple program to help you with linear regression, check out `JBrinco/Quantification-Buddy`.
+
 AWK programs for stuff. I write these mostly for learning purposes and also for automation of boring spreadsheet actions.
 
 ## Linear regression
